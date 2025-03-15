@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 style="color: #ff5733; text-shadow: 2px 2px 5px #333;">My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about" class="section" style="background: linear-gradient(to right, #ff9966, #ff5e62); color: white; padding: 20px;">
+        <h2>About Me</h2>
+        <p>Hi! I'm a passionate developer skilled in Java, Python, and C++.</p>
+    </section>
+    
+    <section id="projects" class="section" style="background-color: #f4f4f4; padding: 20px;">
+        <h2 style="color: #ff5733;">Projects</h2>
+        <div class="project-list">
+            <div class="project" style="background-color: #ffe066; padding: 15px; border-radius: 10px; margin-bottom: 10px;">
+                <h3>Employee Management System</h3>
+                <p>A PHP & MySQL-based system for managing employee records.</p>
+            </div>
+            <div class="project" style="background-color: #66ff66; padding: 15px; border-radius: 10px;">
+                <h3>Dice Game</h3>
+                <p>A fun interactive dice game built using JavaScript.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="section" style="background: linear-gradient(to right, #36d1dc, #5b86e5); color: white; padding: 20px;">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="section" style="background-color: #f4f4f4; padding: 20px;">
+        <h2 style="color: #ff5733;">Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" style="background-color: #ff5733; color: white; padding: 10px 20px; border: none; cursor: pointer;">Send</button>
+        </form>
+    </section>
+</body>
+</html>
